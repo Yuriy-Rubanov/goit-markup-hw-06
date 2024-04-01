@@ -869,6 +869,10 @@ section {
   color: #4d5ae5;
 }
 
+.mobile-modal .header-contacts-item:hover .header-contacts-link,
+.mobile-modal .header-contacts-item:focus .header-contacts-link {
+  color: #4d5ae5;
+}
 
 .mobile-modal .social-media-footer {
   margin-bottom: 0;
