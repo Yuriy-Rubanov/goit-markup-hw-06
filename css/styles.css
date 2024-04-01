@@ -49,8 +49,8 @@ section {
 .container {
   margin: 0 auto;
   width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .visually-hidden {
