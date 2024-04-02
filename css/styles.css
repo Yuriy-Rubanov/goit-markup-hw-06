@@ -457,8 +457,11 @@ section {
   padding: 96px 0;
 }
 
-.footer-logo-paragraph {
-  margin-bottom: 72px;
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
 }
 
 .footer-logo {
@@ -484,10 +487,6 @@ section {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 100%;
-}
-
-.social-media-footer {
-  margin-bottom: 72px;
 }
 
 .social-media-footer .social {
@@ -534,7 +533,7 @@ section {
   padding: 16px;
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: transparent;
@@ -1067,11 +1066,7 @@ section {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-  }
-
-  .footer-logo-paragraph,
-  .social-media-footer {
-    margin-bottom: 0;
+    justify-content: start;
   }
 
   .footer-logo-paragraph {
@@ -1220,7 +1215,7 @@ section {
   }
 
   .footer .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
     justify-content: space-between;
   }
